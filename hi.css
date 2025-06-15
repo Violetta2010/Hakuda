@@ -76,7 +76,7 @@ main {
 
 .loto{
   display: flex;
-  gap: 60px;
+  gap: 55.7px;
 }
 
 /* Hide the images by default */
@@ -167,4 +167,26 @@ main {
 .myLogoSlides:hover .logo-circle{
   transition: 0.3s;
   transform: rotate(360deg);
+}
+
+.dad-main{
+  display: flex;
+  padding: 0px 155px;
+}
+
+.main-left{
+  width: 25%;
+}
+
+.main-right{
+  width: 75%;
+  background: wheat;
+  padding: 10px 0px 0px 20px;
+}
+
+.owl-theme .owl-nav{
+  position: absolute;
+  top: -65px;
+  right: 20px;
+  font-size: 40px;
 }
