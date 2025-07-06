@@ -20,8 +20,12 @@ header{
     justify-content: center;
     justify-content: space-between;
     margin: 0px 100px;
-
 }
+
+.p-10{
+  padding: 10px;
+}
+
 .search-bar{
     outline: none;
     border: none;
@@ -180,7 +184,7 @@ main {
 
 .main-right{
   width: 75%;
-  background: wheat;
+  background: white;
   padding: 10px 0px 0px 20px;
 }
 
@@ -189,4 +193,134 @@ main {
   top: -65px;
   right: 20px;
   font-size: 40px;
+}
+
+.item img{
+  height: 100%;
+}
+
+.item{
+  margin-top: 10px;
+}
+
+.active{
+  background: transparent;
+}
+
+.item h4{
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+h4{
+  margin-top: 15px;
+}
+
+h5{
+  color: red;
+}
+
+.best-price{
+  margin-top: 34px;
+  color: white;
+  background-color: #f91111;
+  border-radius: 10px;
+}
+
+.best-price h1{ 
+  padding-left: 10px;
+  padding-top: 20px;
+}
+
+.item2 h4{
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  color: black;
+}
+
+.item2 h5{
+  color: red;
+}
+
+.item2{
+  background-color: white;
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+
+h6{
+  color: black;
+  font-weight: 500;
+}
+
+.blog{
+  display: flex;
+  padding: 50px 155px 0px;
+}
+
+.blog-left{
+  width: 25%;
+  padding: 10px 0px;
+  background-color: black;
+  justify-content: center;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.blog-left h1{
+  font-weight: 400;
+}
+
+.blog-left-1{
+  display: flex;
+  padding-top: 10px;
+  margin: 8px 10px 0px 10px;
+  border-radius: 10px;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.s1{
+  display: flex;
+  background-color: #fff;
+  border-radius: 10px;
+  height: 80px;
+  gap: 6px;
+}
+
+.s2 h3{
+  font-weight: 500;
+}
+
+.s2 h5{
+  font-weight: 500;
+  color: blue;
+}
+
+.s2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.blog-right{
+  width: 75%;
+  background-color: red;
+  padding-left: 20px;
+}
+
+.blog-right h1{
+  font-weight: 900;
+}
+
+.blog-right-1{
+  width: 50%;
+  padding-top: 20px;
+}
+
+.blog-right-2{
+  width: 50%;
 }
