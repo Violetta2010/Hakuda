@@ -1,28 +1,28 @@
-p{
-    font-size: 40px;
-}
 .form{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .form-login{
+    margin-top: 60px;
     display: flex;
     width: 1000px;
-    height: 600px;
+    height: 480px;
+    border: 1px solid black;
 }
 .white{
     width: 65%;
     padding: 34px 46px;
-    background-color: antiquewhite;
+    background-color: white;
 }
 .white p{
-    text-align: center;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
+    font-size: 22px;
+    font-weight: 700;
 }
 .black{
     width: 35%;
-    background-color: aqua;
+    background-color: black;
 }
 .Email{
     display: block;
@@ -54,4 +54,62 @@ p{
     border: 1px solid grey;
     border-radius: 6px;
     margin-top: 20px;
+    cursor: pointer;
+}
+
+.white h4{
+    font-weight: 400;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.logo-img{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+.pa{
+    display: flex;
+    justify-content: center;
+}
+
+.in{
+    color: blue;
+}
+
+.black p{
+    color: white;
+    display: flex;
+    font-size: 22px;
+    font-weight: 700;
+    justify-content: center;
+    
+}
+
+.ser p{
+    color: white;
+    font-size: 16px;
+    justify-content: start;
+    padding-left: 58px;
+    padding-top: 20px;
+}
+
+.here{
+    color: blue;
+    padding-left: 58px;
+}
+
+.black-button{
+    width: 140px;
+    height: 40px;
+    font-size: 20px;
+    margin-left: 58px;
+    margin-top: 30px;
+    background: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 6px;
+    cursor: pointer;
 }

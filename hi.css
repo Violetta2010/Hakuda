@@ -211,13 +211,10 @@ main {
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
-}
-
-h4{
   margin-top: 15px;
 }
 
-h5{
+.item h5{
   color: red;
 }
 
@@ -267,6 +264,7 @@ h6{
   justify-content: center;
   text-align: center;
   border-radius: 10px;
+  align-self: start;
 }
 
 .blog-left h1{
@@ -306,14 +304,27 @@ h6{
   align-items: start;
 }
 
+.blog-full{
+  display: flex;
+  gap: 10px;
+}
+
 .blog-right{
   width: 75%;
-  background-color: red;
-  padding-left: 20px;
+  padding-left: 16px;
 }
 
 .blog-right h1{
   font-weight: 900;
+}
+
+.blog-right-1 h5{
+  color: grey;
+  padding-top: 4px;
+}
+
+.blog-right-1 p{
+  color: grey;
 }
 
 .blog-right-1{
@@ -323,4 +334,100 @@ h6{
 
 .blog-right-2{
   width: 50%;
+}
+
+.blog-right-item{
+  display: flex;
+  gap: 8px;
+}
+
+.img-item{
+  margin-top: 20px;
+  border-radius: 10px;
+  align-self: start;
+}
+
+.word-item{
+  padding-top: 20px;
+}
+
+.blog-right-2 h5{
+  color: grey;
+  padding-top: 4px;
+}
+
+.blog-right-2 p{
+  color: grey;
+}
+
+.something-else{
+  padding: 50px 155px 0px 155px;
+}
+
+.service{
+  display: flex;
+  padding: 100px 155px 0px 155px;
+  gap: 81.8px;
+}
+
+.service-content{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.follow{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 80px;
+  gap: 35px;
+}
+
+.footer{
+  display: flex;
+  padding: 40px 155px 0px 155px;
+}
+
+.a{
+  width: 25%;
+  background: red;
+  padding: 30px 0px 0px 10px;
+}
+
+.a p{
+  padding-top: 20px;
+  font-size: 16px;
+}
+
+.b{
+  width: 25%;
+  background: blue;
+  padding: 30px 0px 0px 10px;
+}
+
+.b p{
+  padding-top: 20px;
+  font-size: 16px;
+}
+
+.c{
+  width: 25%;
+  background: orange;
+  padding: 30px 0px 0px 10px;
+}
+
+.c p{
+  padding-top: 20px;
+}
+
+
+.d{
+  width: 25%;
+  background: green;
+  padding: 30px 0px 0px 10px;
+}
+
+.d p{
+  padding-top: 20px;
 }
